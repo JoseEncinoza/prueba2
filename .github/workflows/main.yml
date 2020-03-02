@@ -9,9 +9,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, prueba de jose
+    - name: Paso de Prueba - Jose
+      run: mkdir nueva_carpeta
